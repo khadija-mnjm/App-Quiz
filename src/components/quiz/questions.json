@@ -87,50 +87,5 @@
         "optionC": "Les fonctions flèches n'ont pas leur propre contexte this",
         "optionD": "Les fonctions flèches ne peuvent pas être utilisées comme des fonctions de rappel (callbacks) ",
         "answer": "Les fonctions flèches sont une nouvelle syntaxe pour déclarer des fonctions"
-    },
-
-    {
-        "question": "Qu'est-ce que Redux ?",
-        "optionA": "Redux est spécifique à React et ne peut pas être utilisé avec d'autres bibliothèques ou frameworks JavaScript",
-        "optionB": "Redux est un gestionnaire d'état global pour les applications JavaScript ",
-        "optionC": "Redux est principalement utilisé pour gérer le rendu visuel dans une application",
-        "optionD": "Redux utilise une architecture basée sur les composants pour structurer une application",
-        "answer": "Redux est un gestionnaire d'état global pour les applications JavaScript "
-    },
-
-    {
-        "question": "quelle est la déference entre usestate et useeffect ?",
-        "optionA": "useeffect est utilisé pour effectuer des opérations après le rendu du composant",
-        "optionB": "useEffect est utilisé pour déclarer des variables d'état dans un composant fonctionnel ",
-        "optionC": "useState est utilisé pour gérer l'état local ,useEffect est utilisé pour gérer les effets de bord dans un composant fonctionnel",
-        "optionD": "useState est utilisé pour effectuer des opérations après le rendu du composant",
-        "answer": "useState est utilisé pour gérer l'état local ,useEffect est utilisé pour gérer les effets de bord dans un composant fonctionnel"
-    },
-
-    {
-        "question": "C’est quoi le virtual DOM?",
-        "optionA": "Le virtual DOM est affiché dans le navigateur de l'utilisateur ",
-        "optionB": "Le virtual DOM est spécifique à React et n'est pas utilisé dans d'autres bibliothèques JavaScript ",
-        "optionC": "Le virtual DOM crée une représentation statique de l'arbre DOM",
-        "optionD": "Le virtual DOM est utilisé pour optimiser les mises à jour du DOM",
-        "answer": "Le virtual DOM est utilisé pour optimiser les mises à jour du DOM"
-    },
-
-    {
-        "question": "c'est qui le cycle de vie d'un composant react?",
-        "optionA": "Montage (Mounting) ,Mise à jour (Updating),Démontage (Unmounting) ",
-        "optionB": "componentWillRender() est appelé avant le rendu initial d'un composant dans le DOM lors de la phase de montage",
-        "optionC": "componentWillUpdate() est appelé après que le rendu a été effectué dans le DOM lors de la phase de mise à jour",
-        "optionD": "componentWillUnmount() est appelé avant qu'un composant soit retiré du DOM lors de la phase de démontage ",
-        "answer": "Montage (Mounting) ,Mise à jour (Updating),Démontage (Unmounting)"
-    },
-
-    {
-        "question": "Quelle est les avantages de react ?",
-        "optionA": "React nécessite l'utilisation obligatoire de JSX",
-        "optionB": "React est uniquement destiné aux applications à page unique ",
-        "optionC": "React ne prend pas en charge le développement mobile",
-        "optionD": "Réutilisabilité des composants",
-        "answer": "Réutilisabilité des composants"
     }
 ]
