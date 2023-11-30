@@ -1,0 +1,68 @@
+/* Add this to your existing CSS file or create a new one */
+
+
+
+.quiz-container {
+    max-width: 70%;
+    margin: 20px auto;
+    background-color: #f5eded;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    height: auto;
+}
+
+.question-container {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 5px;
+    height: 100%;
+}
+
+
+.question-container h4 {
+    color: #333; 
+}
+
+p {
+    color: #555; 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    color: #530076;
+}
+
+.listqu {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(214, 187, 216); 
+    color: #000000; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 90%;
+    height: 70px;
+    font-size: 20px;
+}
+
+.listqu:hover {
+    background-color: #4f0270; 
+    color: #fff;
+}
+
+button {
+    background-color: #4CAF50; /* Green */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker Green on hover */
+}

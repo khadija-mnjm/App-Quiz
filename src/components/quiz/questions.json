@@ -1,0 +1,136 @@
+[
+    {
+        "question": "Qu’est-ce que React ?",
+        "optionA": "React est une bibliothèque JavaScript",
+        "optionB": "React est une framework JavaScript",
+        "optionC": "React est un langage de programmation",
+        "optionD": "React est principalement utilisé pour les applications mobiles",
+        "answer": "React est une bibliothèque JavaScript"
+    },
+
+    {
+        "question": "Qu’est-ce que JSX  ?",
+        "optionA": "JSX est un langage de programmation indépendant",
+        "optionB": "JSX est nécessaire pour écrire des applications React",
+        "optionC": "JSX est uniquement utilisé pour le développement côté serveur ",
+        "optionD": "JSX est une extension de syntaxe pour JavaScript ",
+        "answer": "JSX est une extension de syntaxe pour JavaScript "
+    },
+
+    {
+        "question": "Comment passer des données aux composants React?",
+        "optionA": "Le contexte  n'est pas utilisé pour passer des données entre composants React",
+        "optionB": "Props (propriétés)",
+        "optionC": "Redux est utilisé exclusivement pour gérer l'état global de l'application",
+        "optionD": "Les composants React ne peuvent pas recevoir de données externes",
+        "answer": "Props (propriétés)"
+    },
+
+    {
+        "question": "Quelle est la différence entre state et props ?",
+        "optionA": "Le state ne peut pas être modifié après son initialisation",
+        "optionB": "Les props sont modifiables à l'intérieur du composant enfant ",
+        "optionC": "Les props sont passées de parent à enfant, tandis que le state est local à un composant",
+        "optionD": "Le state peut être passé directement à un autre composant sans être modifié",
+        "answer": "Les props sont passées de parent à enfant, tandis que le state est local à un composant"
+    },
+
+    {
+        "question": "À quoi sert le hook useEffect?",
+        "optionA": "useEffect est principalement utilisé pour la gestion de l'état local",
+        "optionB": "useEffect remplace complètement le cycle de vie componentDidMount",
+        "optionC": "useEffect est utilisé pour effectuer des effets de bord dans les composants React",
+        "optionD": "seEffect ne peut être utilisé qu'une seule fois par composant",
+        "answer": "useEffect est utilisé pour effectuer des effets de bord dans les composants React"
+    },
+
+    {
+        "question": "A quoi sert la commande create-react-app?",
+        "optionA": "create-react-app est une commande pour créer rapidement un projet React",
+        "optionB": "create-react-app est utilisé pour créer des composants React individuels",
+        "optionC": "create-react-app nécessite une configuration manuelle pour chaque nouveau projet",
+        "optionD": "create-react-app est spécifique à un éditeur de texte ou une IDE particulière",
+        "answer": "create-react-app est une commande pour créer rapidement un projet React"
+    },
+
+    {
+        "question": " Existe-t-il une différence entre un composant et un élément ?",
+        "optionA": "Un élément est une classe React représentant une partie de l'interface utilisateur",
+        "optionB": "Les composants et les éléments sont des termes interchangeables en React",
+        "optionC": "Les composants peuvent contenir d'autres composants en tant qu'éléments enfants",
+        "optionD": "Un composant est une fonction ou une classe React réutilisable",
+        "answer": "Un composant est une fonction ou une classe React réutilisable"
+    },
+
+    {
+        "question": "Quelle est la différence entre ReactJS et React Native ?",
+        "optionA": "React Native est utilisé exclusivement pour le développement d'applications iOS",
+        "optionB": "ReactJS ne prend pas en charge la création d'applications mobiles",
+        "optionC": "ReactJS est utilisé pour le développement web, tandis que React Native est utilisé pour le développement d'applications mobiles",
+        "optionD": "ReactJS utilise des composants web, tandis que React Native utilise des composants mobiles natifs",
+        "answer": "ReactJS est utilisé pour le développement web, tandis que React Native est utilisé pour le développement d'applications mobiles"
+    },
+
+    {
+        "question": "Que fait render() ?",
+        "optionA": "render() est une méthode dans un composant React qui retourne le JSX à afficher",
+        "optionB": "render() est utilisé pour effectuer des opérations asynchrones dans un composant",
+        "optionC": "render() est facultatif dans les composants de classe React",
+        "optionD": "render() est utilisé pour définir l'état initial d'un composant",
+        "answer": "render() est une méthode dans un composant React qui retourne le JSX à afficher"
+    },
+
+    {
+        "question": "Qu'est-ce qu'une fonction flèche? ",
+        "optionA": "Les fonctions flèches sont une nouvelle syntaxe pour déclarer des fonctions",
+        "optionB": "Les fonctions flèches ne peuvent pas être utilisées comme des fonctions anonymes",
+        "optionC": "Les fonctions flèches n'ont pas leur propre contexte this",
+        "optionD": "Les fonctions flèches ne peuvent pas être utilisées comme des fonctions de rappel (callbacks) ",
+        "answer": "Les fonctions flèches sont une nouvelle syntaxe pour déclarer des fonctions"
+    },
+
+    {
+        "question": "Qu'est-ce que Redux ?",
+        "optionA": "Redux est spécifique à React et ne peut pas être utilisé avec d'autres bibliothèques ou frameworks JavaScript",
+        "optionB": "Redux est un gestionnaire d'état global pour les applications JavaScript ",
+        "optionC": "Redux est principalement utilisé pour gérer le rendu visuel dans une application",
+        "optionD": "Redux utilise une architecture basée sur les composants pour structurer une application",
+        "answer": "Redux est un gestionnaire d'état global pour les applications JavaScript "
+    },
+
+    {
+        "question": "quelle est la déference entre usestate et useeffect ?",
+        "optionA": "useeffect est utilisé pour effectuer des opérations après le rendu du composant",
+        "optionB": "useEffect est utilisé pour déclarer des variables d'état dans un composant fonctionnel ",
+        "optionC": "useState est utilisé pour gérer l'état local ,useEffect est utilisé pour gérer les effets de bord dans un composant fonctionnel",
+        "optionD": "useState est utilisé pour effectuer des opérations après le rendu du composant",
+        "answer": "useState est utilisé pour gérer l'état local ,useEffect est utilisé pour gérer les effets de bord dans un composant fonctionnel"
+    },
+
+    {
+        "question": "C’est quoi le virtual DOM?",
+        "optionA": "Le virtual DOM est affiché dans le navigateur de l'utilisateur ",
+        "optionB": "Le virtual DOM est spécifique à React et n'est pas utilisé dans d'autres bibliothèques JavaScript ",
+        "optionC": "Le virtual DOM crée une représentation statique de l'arbre DOM",
+        "optionD": "Le virtual DOM est utilisé pour optimiser les mises à jour du DOM",
+        "answer": "Le virtual DOM est utilisé pour optimiser les mises à jour du DOM"
+    },
+
+    {
+        "question": "c'est qui le cycle de vie d'un composant react?",
+        "optionA": "Montage (Mounting) ,Mise à jour (Updating),Démontage (Unmounting) ",
+        "optionB": "componentWillRender() est appelé avant le rendu initial d'un composant dans le DOM lors de la phase de montage",
+        "optionC": "componentWillUpdate() est appelé après que le rendu a été effectué dans le DOM lors de la phase de mise à jour",
+        "optionD": "componentWillUnmount() est appelé avant qu'un composant soit retiré du DOM lors de la phase de démontage ",
+        "answer": "Montage (Mounting) ,Mise à jour (Updating),Démontage (Unmounting)"
+    },
+
+    {
+        "question": "Quelle est les avantages de react ?",
+        "optionA": "React nécessite l'utilisation obligatoire de JSX",
+        "optionB": "React est uniquement destiné aux applications à page unique ",
+        "optionC": "React ne prend pas en charge le développement mobile",
+        "optionD": "Réutilisabilité des composants",
+        "answer": "Réutilisabilité des composants"
+    }
+]
